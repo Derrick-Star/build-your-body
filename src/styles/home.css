@@ -1,0 +1,140 @@
+.home-container {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+  padding: 50px 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  border-left: 4px solid #ffc107;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  background: linear-gradient(135deg, #ffc107, #ff9800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-section p {
+  font-size: 1.3rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
+  color: #000;
+  padding: 15px 40px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 193, 7, 0.3);
+}
+
+.cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 193, 7, 0.5);
+}
+
+.features-section {
+  margin-bottom: 30px;
+}
+
+.features-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.feature-card {
+  background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+  padding: 25px;
+  border-radius: 8px;
+  border: 2px solid #ffc107;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 193, 7, 0.1);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(255, 193, 7, 0.3);
+  border-color: #ff9800;
+}
+
+.feature-card h3 {
+  color: #ffc107;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.characters-showcase {
+  background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+  padding: 30px;
+  border-radius: 8px;
+  border: 2px solid #ffc107;
+}
+
+.characters-showcase h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffc107;
+  text-align: center;
+}
+
+.character-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.character-item {
+  background: linear-gradient(135deg, #0f3460 0%, #16213e 100%);
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 3px solid #ffc107;
+  transition: all 0.3s ease;
+}
+
+.character-item:hover {
+  transform: translateX(5px);
+  border-left-color: #ff9800;
+}
+
+.character-item h4 {
+  color: #ffc107;
+  margin-bottom: 5px;
+}
+
+.character-item .anime {
+  color: #999;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.character-item .description {
+  color: #ccc;
+  font-size: 0.9rem;
+}
